@@ -29,6 +29,10 @@ nvm install $NODE_VERSION
 # Install Python pip venv
 sudo apt-get install -y python3 python3-pip python3-venv
 
+# Install nest, angular and typescript
+
+npm install -g @nestjs/cli @angular/cli typescript
+
 # Verify installations
 echo "Verifying installations..."
 docker --version
